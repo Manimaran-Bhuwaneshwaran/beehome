@@ -1,1 +1,40 @@
-//styles
+/* BeeHome digital marketing agency
+hex-bee-bricks-0.1
+©beehomein all rights reserved */
+*{box-sizing:border-box;padding:0;margin:0;font-family:inherit;font-size:100%}
+.grid-col{width:100%;float:left;zoom:1;box-sizing: border-box;padding-left: 20px;}.grid-col::before,.grid-col:after{content:"";display:table}.grid-col:after{clear:both}
+.row{box-sizing: border-box;zoom:1;margin-left: -20px;}
+.row::before,.row:after{content:"";display:table}.row:after{clear:both}
+.grid-xs-col-1{width:33.332%}.grid-xs-col-2{width:66.664%}
+@media(min-width:768px){.grid-sm-col-1{width:16.664%}.grid-sm-col-2{width:33.328%}.grid-sm-col-3{width:49.992%}.grid-sm-col-4{width:66.656%}.grid-sm-col-5{width:83.32%}}
+@media(min-width:1024px){.grid-md-col-1{width:10%}.grid-md-col-2{width:20%}.grid-md-col-3{width:30%}.grid-md-col-4{width:40%}.grid-md-col-5{width:50%}.grid-md-col-6{width:60%}.grid-md-col-7{width:70%}.grid-md-col-8{width:80%}.grid-md-col-9{width:90%}}
+@media(min-width:1280px){.grid-lg-col-1{width:8.332%}.grid-lg-col-2{width:16.664%}.grid-lg-col-3{width:24.996%}.grid-lg-col-4{width:33.328%}.grid-lg-col-5{width:41.66%}.grid-lg-col-6{width:49.992%}.grid-lg-col-7{width:58.324%}.grid-lg-col-8{width:66.656%}.grid-lg-col-9{width:74.988%}.grid-lg-col-10{width:83.32%}.grid-lg-col-11{width:91.652%}}
+*[class*="-lg-dark"]{background:rgba(0,0,0,1)}
+*[class*="-md-dark"]{background:rgba(0,0,0,0.75)}
+*[class*="-sm-dark"]{background:rgba(0,0,0,0.5)}
+*[class*="-xs-dark"]{background:rgba(0,0,0,0.25)}
+*[class*="-lg-light"]{background:rgba(255,255,255,1)}
+*[class*="-md-light"]{background:rgba(255,255,255,0.75)}
+*[class*="-sm-light"]{background:rgba(255,255,255,0.5)}
+*[class*="-xs-light"]{background:rgba(255,255,255,0.25)}
+*[class*="-primary"]{background:#f90}
+*[class*="-secondary"]{background:rgba(255,153,0,0.514)}
+*[class*="-acent"]{background:#d33}
+h1,h2,h3,h4,h5,h6,p,a,button{color:black}
+.container{width: 100%}
+.card{width: 100%;text-align:center;border-radius:5px;box-shadow:2px 2px 5px rgba(0,0,0,0.25);overflow: hidden;}
+.card:hover{box-shadow:4px 4px 10px rgba(0,0,0,0.25)}
+.h-dark-shadow{text-shadow:1px1px5pxrgba(0,0,0,0.25)}
+.h-light-shadow{text-shadow:1px1px5pxrgba(255,255,255,0.25)}
+body{font-size:60%;line-height:1.25;font-family:sans-serif;}
+@media(min-width:768px){body{font-size:70%;line-height:1.75}}
+@media(min-width:1024px){body{font-size:80%;line-height:2}}
+@media(min-width:1280px){body{font-size:80%;line-height:2.25}}
+h1{font-size:200%;letter-spacing:2px}h2{font-size:175%;letter-spacing:1.75px}h3{font-size:150%;letter-spacing:1.5px}h4{font-size:125%;letter-spacing:1.25px}h5{font-size:75%;letter-spacing:1px}h6{font-size:50%;letter-spacing:1px}p{font-size:100%;letter-spacing:1px;opacity:0.8}
+button{cursor:pointer;outline:0;background:transparent;padding:5px10px}input,select,textarea{outline:0;background:transparent;padding:5px10px;width:100%;appearance:none}input[type=number]{appearance:none}a,.button{text-decoration:none;display:inline-block;padding:5px10px}
+@media(min-width:768px){button,input,select,textarea,button{padding:10px20px}}
+.overflow-hidden{overflow:hidden}
+ul{list-style:none}li{display: block;width: 100%;}
+@media(min-width:768px){li{display: inline-block}}
+img{width: 100%;height: auto}
+.flex-1{width: 30%;display: inline-block;padding: 20px;}
